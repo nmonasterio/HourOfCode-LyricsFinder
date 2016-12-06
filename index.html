@@ -1,0 +1,55 @@
+<html !doctype>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>My awesome Twitter app</title>
+<script src="js/jquery-2.1.1.min.js"></script>
+
+<!-- TO-DO Nos. 1 and 2: Add stylesheet references -->
+<!-- <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/coolstyles.css"> -->
+
+<!-- TO-DO No. 3: Add JavaScript reference -->
+<!-- <script src="js/lyricsdemo.js"></script> -->
+
+
+<body>
+
+	<div class="jumbotron">
+		<div id="demo-logo"></div>
+		<h1>Awesometastic Lyric FastFinder</h1>
+		<p>Search through, sing along, rinse, repeat</p>
+	</div>
+
+	<div class="container">
+		<form id="form-lyrics-search">
+
+			<div class="form-group">
+				<label for="artist">Enter the artist name</label>
+				<input type="text" class="form-control" name="artist" id="artist" placeholder='I.e., Willie Nelson' size="60">
+
+			</div>
+
+			<div class="form-group">
+				<label for="song">Enter the song name</label>
+				<input type="text" class="form-control" name="song" id="song" placeholder='I.e., "On the road again"' size="60">
+
+			</div>
+
+			<div class="form-group">
+				<input type="submit" class="btn btn-info" val="Search away!">
+			</div>
+
+		</form>
+
+		<div id="dropdownForResultsContainer"></div>
+
+		<div id="lyrics">
+
+		</div>
+
+
+	</div>
+
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+.form-control {
+    width:300px;
+}
+
+#demo-logo
+{
+	float:left;
+	width:200px;
+	height:200px;
+	margin-right:20px;
+	background: url('desktop.png') no-repeat;
+
+}
+
+h1
+{
+	/* add stuff here if you want to! 
+	Change size with font-size: 30px; */
+}
+
+#main-top-box
+{
+	/* add stuff here if you want to! 
+	Change border-width with border-width: 2px solid black; */
+}
+
+p
+{
+	/* add stuff here if you want to! 
+	Change color with color: pink; */
+
+}
+
+body
+{
+	/* add stuff here if you want to! 
+	Change color with color: pink; */
+
+}
+
+@media (max-width: 640px) {
+  #demo-logo {
+    float:none;
+    clear: both;
+    width: 100px;
+    height: 100px;
+    margin-right: 0px;
+    /* TO-DO No. 3 */
+	background: url('phone.png') no-repeat;   
+  }
+
+}
